@@ -18,6 +18,8 @@ $border-size: 3px;
 body {
   display: flex;
   flex-wrap: wrap;
+
+  transition: all .4s;
 }
 
 .card {
@@ -26,7 +28,7 @@ body {
   margin: 1em;
 
   height: 8em;
-  width: 20em;
+  width: 17em;
 
   font-family: sans-serif;
   cursor: pointer;

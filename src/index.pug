@@ -8,8 +8,5 @@ html
     title Hello Bulma!
     link(rel="stylesheet", type="text/css" href="style.css")
   body
-    +card("Berlin","Dernburgstraße 50","14057","Dasha Kovac","+49 17 342 150 95")
-    +card("Barcelona","Dernburgstraße 50","14057","Dasha Kovac","+49 17 342 150 95")
-    +card("Amsterdam","Dernburgstraße 50","14057","Dasha Kovac","+49 17 342 150 95")
-    +card("Paris","Dernburgstraße 50","14057","Dasha Kovac","+49 17 342 150 95")
-    +card("Madrid","Dernburgstraße 50","14057","Dasha Kovac","+49 17 342 150 95")
+    each location in cities
+      +card(location)
