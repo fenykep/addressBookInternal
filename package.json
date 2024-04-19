@@ -1,0 +1,16 @@
+{
+  "name": "addressbookinternal",
+  "version": "1.0.0",
+  "description": "A dead simple site for our shipment addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug -o public/ src/index.pug; sass src/style.scss public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.75.0"
+  }
+}

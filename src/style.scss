@@ -1,0 +1,44 @@
+// settings
+$border-size: 3px;
+
+@font-face {
+  font-family: 'Martian Mono Regular';
+  src: local('Martian Mono Regular'), url('fonts/MartianMono-StdRg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Martian Mono Bold';
+  src: local('Martian Mono Bold'), url('fonts/MartianMono-StdxBd.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: $border-size solid black;
+  padding: 1em;
+  margin: 1em;
+
+  height: 14em;
+  width: 20em;
+
+  font-family: sans-serif;
+
+  h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Martian Mono Bold', sans-serif;
+  }
+
+  div {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-family: 'Martian Mono Regular', sans-serif;
+  }
+}
