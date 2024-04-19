@@ -3,14 +3,14 @@ $border-size: 3px;
 
 @font-face {
   font-family: 'Martian Mono Regular';
-  src: local('Martian Mono Regular'), url('fonts/MartianMono-StdRg.otf') format('opentype');
+  src: local('Martian Mono Regular'), url('fonts/MartianMono-sWdRg.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Martian Mono Bold';
-  src: local('Martian Mono Bold'), url('fonts/MartianMono-StdxBd.otf') format('opentype');
+  src: local('Martian Mono Bold'), url('fonts/MartianMono-sWdxBd.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -25,20 +25,46 @@ body {
   padding: 1em;
   margin: 1em;
 
-  height: 14em;
+  height: 8em;
   width: 20em;
 
   font-family: sans-serif;
+  cursor: pointer;
+
+  position: relative;
 
   h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'Martian Mono Bold', sans-serif;
   }
 
   div {
-    margin-bottom: 1em;
-    font-size: 1em;
+    margin-bottom: 0;
+    font-size: 1rem;
     font-family: 'Martian Mono Regular', sans-serif;
+  }
+
+  .zipCode{
+    margin-bottom: 1rem;
+  }
+
+  svg{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: calc(2.5 * $border-size);
+    // transition: fill .3s;
+    transition: all .3s;
+  }
+
+  svg:hover{
+    // fill: oklch(99% 0.05 271.0 / .96);
+    // fill: #d5e5ff;
+    stroke-width: calc(1 * $border-size);
   }
 }

@@ -1,8 +1,10 @@
 mixin card(city, address, zip, name, phone)
-  .card
+  .card(onClick="console.log('hello')")
     h1= city
     .street= address
     .zipCode= zip
     .name= name
     .phone= phone
-    .copy
+    svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg")
+      rect(x="35" y="10" width="50" height="50" )
+      rect(x="20" y="25" width="50" height="50" )
