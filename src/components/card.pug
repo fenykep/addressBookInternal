@@ -1,0 +1,12 @@
+mixin card(details)
+  //- .card(onClick=`console.log('${details}')`)
+  //- .card(onclick=`console.log(JSON.stringify(${JSON.stringify(details)}))`)
+  .card(onclick=`console.log(${JSON.stringify(details)})`)
+    h1= details.city
+    .street= details.address
+    .zipCode= details.zip
+    .name= details.name
+    .phone= details.phone
+    svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg")
+      rect(x="35" y="10" width="50" height="50" )
+      rect(x="20" y="25" width="50" height="50" )

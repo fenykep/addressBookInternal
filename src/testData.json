@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "city": "Paris",
+      "address": "avenue de Clichy 67",
+      "zip": "75018",
+      "name": "Melissa Thompson",
+      "phone": "+31 1 84 80 66 01"
+    },
+    {
+      "city": "London",
+      "address": "Brunswick Square 24",
+      "zip": "WC1N 1AF",
+      "name": "James Johnson",
+      "phone": "+37 1 84 80 66 02"
+    },
+    {
+      "city": "Berlin",
+      "address": "Kurfürstendamm 10",
+      "zip": "10719",
+      "name": "Jessica Smith",
+      "phone": "+49 1 84 80 66 03"
+    },
+    {
+      "city": "Rome",
+      "address": "Via del Corso 312",
+      "zip": "00186",
+      "name": "Michael Brown",
+      "phone": "+33 1 84 80 66 04"
+    },
+    {
+      "city": "Madrid",
+      "address": "Calle de Alcalá 135",
+      "zip": "28009",
+      "name": "Michelle Davis",
+      "phone": "+43 1 84 80 66 05"
+    }
+  ]
+}
