@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "city": "New York",
+      "address": "5th Avenue 123",
+      "zip": "10011",
+      "name": "Daniel White",
+      "phone": "+1 1 84 80 66 01"
+    },
+    {
+      "city": "Tokyo",
+      "address": "Ginza 4-3-1",
+      "zip": "104-0061",
+      "name": "Yuka Tanaka",
+      "phone": "+81 1 84 80 66 02"
+    },
+    {
+      "city": "Moscow",
+      "address": "Tverskaya Street 10",
+      "zip": "125009",
+      "name": "Alexander Petrov",
+      "phone": "+7 1 84 80 66 03"
+    },
+    {
+      "city": "Sydney",
+      "address": "George Street 200",
+      "zip": "2000",
+      "name": "Emily Johnson",
+      "phone": "+61 1 84 80 66 04"
+    },
+    {
+      "city": "Toronto",
+      "address": "Yonge Street 34",
+      "zip": "M5E 1G5",
+      "name": "William Smith",
+      "phone": "+1 1 84 80 66 05"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "city": "Mumbai",
+      "address": "Linking Road 50",
+      "zip": "400052",
+      "name": "Priya Patel",
+      "phone": "+91 1 84 80 66 06"
+    },
+    {
+      "city": "Seoul",
+      "address": "Myeong-dong 3-gil 12",
+      "zip": "04535",
+      "name": "Ji-Yeon Kim",
+      "phone": "+82 1 84 80 66 07"
+    },
+    {
+      "city": "Istanbul",
+      "address": "Istiklal Avenue 154",
+      "zip": "34430",
+      "name": "Mehmet Yilmaz",
+      "phone": "+90 1 84 80 66 08"
+    },
+    {
+      "city": "Mexico City",
+      "address": "Paseo de la Reforma 123",
+      "zip": "06030",
+      "name": "Ana Garcia",
+      "phone": "+52 1 84 80 66 09"
+    },
+    {
+      "city": "Osaka",
+      "address": "Dotonbori 1-5-10",
+      "zip": "542-0071",
+      "name": "Hiroshi Nakamura",
+      "phone": "+81 1 84 80 66 10"
+    }
+  ]
+}
