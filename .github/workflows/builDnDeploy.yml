@@ -39,6 +39,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run build script
+        id: build_script
         run: |
           npm run build
 
@@ -48,6 +49,10 @@ jobs:
         with:
           # Upload 'public/' directory of repository
           path: 'public/'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: success() || failure()
+        needs: build_script
 
   deploy:
     needs: build
