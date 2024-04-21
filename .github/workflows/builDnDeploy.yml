@@ -41,6 +41,13 @@ jobs:
       - name: Run build script
         run: |
           npm run build
+      # Upload the generated HTML and CSS files as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload public directory of repository
+          path: 'public/'
+
   deploy:
     environment:
       name: github-pages
