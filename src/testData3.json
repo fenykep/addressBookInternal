@@ -22,18 +22,32 @@
       "phone": "+90 1 84 80 66 08"
     },
     {
-      "city": "Mexico City",
-      "address": "Avenida Garcia 123",
-      "zip": "06030",
-      "name": "Ana Garcia",
-      "phone": "+52 1 84 80 66 09"
-    },
-    {
       "city": "Osaka",
       "address": "Dotonbori 1-5-10",
       "zip": "542-0071",
       "name": "Hiroshi Nakamura",
       "phone": "+81 1 84 80 66 10"
+    },
+        {
+      "city": "Paris",
+      "address": "Rue de Rivoli 123",
+      "zip": "75001",
+      "name": "Jean Dupont",
+      "phone": "+33 1 84 80 66 04"
+    },
+    {
+      "city": "Tokyo",
+      "address": "Ginza 4-3-11",
+      "zip": "104-0061",
+      "name": "Taro Yamada",
+      "phone": "+81 1 84 80 66 05"
+    },
+    {
+      "city": "Sydney",
+      "address": "George Street 543",
+      "zip": "2000",
+      "name": "James Smith",
+      "phone": "+61 1 84 80 66 06"
     }
   ]
 }

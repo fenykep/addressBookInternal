@@ -1,0 +1,46 @@
+{
+  "cities": [
+    {
+      "city": "London",
+      "address": "Piccadilly Circus 12",
+      "zip": "W1J 9LL",
+      "name": "John Doe",
+      "phone": "+44 1 84 80 66 10"
+    },
+    {
+      "city": "Rome",
+      "address": "Via del Corso 23",
+      "zip": "00186",
+      "name": "Mario Rossi",
+      "phone": "+39 1 84 80 66 11"
+    },
+    {
+      "city": "Toronto",
+      "address": "Yonge Street 100",
+      "zip": "M5H 2N2",
+      "name": "Michael Brown",
+      "phone": "+1 1 84 80 66 12"
+    },
+    {
+      "city": "Berlin",
+      "address": "Unter den Linden 23",
+      "zip": "10117",
+      "name": "Hans Schmidt",
+      "phone": "+49 1 84 80 66 07"
+    },
+    {
+      "city": "Beijing",
+      "address": "Wangfujing 19",
+      "zip": "100006",
+      "name": "Li Wei",
+      "phone": "+86 1 84 80 66 08"
+    },
+    {
+      "city": "Seoul",
+      "address": "Myeong-dong 3-gil 22",
+      "zip": "04537",
+      "name": "Kim Joon",
+      "phone": "+82 1 84 80 66 09"
+    }
+  ]
+}
