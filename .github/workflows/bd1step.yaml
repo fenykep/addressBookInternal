@@ -1,4 +1,4 @@
-name: builDnDeploy
+name: BD1step
 
 # Controls when the workflow will run
 on:
@@ -24,7 +24,10 @@ concurrency:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  builDnD:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -48,18 +51,9 @@ jobs:
           # Upload public directory of repository
           path: 'public/'
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Download artifact
-        uses: actions/download-pages-artifact@v3
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
