@@ -3,7 +3,8 @@ const pug = require('pug');
 const sass = require('sass');
 
 // Read the JSON data from the file
-const data = JSON.parse(fs.readFileSync(`src/${process.env.TEST_DATA_FILE}.json`, 'utf8'));
+const testDataFile = process.env.TEST_DATA_FILE || 'testData1';
+const data = JSON.parse(fs.readFileSync(`src/${testDataFile}.json`, 'utf8'));
 
 // Render the index.pug file with the data
 const html = pug.renderFile('src/index.pug', { cities: data.cities });

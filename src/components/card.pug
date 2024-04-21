@@ -1,7 +1,7 @@
 mixin card(details)
   //- .card(onClick=`console.log('${details}')`)
   //- .card(onclick=`console.log(JSON.stringify(${JSON.stringify(details)}))`)
-  .card(onclick=`console.log(${JSON.stringify(details)})`)
+  .card(onclick=`navigator.clipboard.writeText(JSON.stringify(${JSON.stringify(details)}))`)
     h1= details.city
     .street= details.address
     .zipCode= details.zip
