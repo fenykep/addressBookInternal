@@ -41,14 +41,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: npm i
+        run: npm ci
 
       # Runs a set of commands using the runners shell
       - name: Run build script
         run: |
           npm run build
         env:
-          TEST_DATA_FILE: ${{ env.TEST_DATA_FILE }}
+          TEST_DATA_FILE: testData1
 
       # Upload the generated HTML and CSS files as an artifact
       - name: Upload artifact
